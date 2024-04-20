@@ -15,7 +15,7 @@ conda activate torch2
 # https://pypi.org/project/transformers/4.2.0/
 conda install -c huggingface transformers==4.20.0
 conda install torchvision pytoch torchaudio
-python -m ipykernel install --user --name pytorch --display-name "Python 3.9 (torch)"
+python -m ipykernel install --user --name torch2 --display-name "Python 3.9 (torch)"
 
 python app.py
 
