@@ -1,6 +1,6 @@
 # Work is based on this tutorial
 https://towardsdatascience.com/run-bloom-the-largest-open-access-ai-model-on-your-desktop-computer-f48e1e2a9a32
-- need 700GB of free space use M.2 NVMe external memory
+- need 700GB of free space use M.2 NVMe external memory and may take several hours to download
 # Github lfs "large file storage" install with brew macos m1
 - from https://brew.sh install via:
 - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
@@ -19,3 +19,7 @@ https://towardsdatascience.com/run-bloom-the-largest-open-access-ai-model-on-you
  - `model_path = "/Volumes/Volume/bloom/new/bloom" # replace with your local folder path`
 # run (note: takes about 30 minutes for each token without gpu acceleration)
 - `python app.py`
+
+# Result
+
+![](image.png)
