@@ -12,10 +12,10 @@ https://towardsdatascience.com/run-bloom-the-largest-open-access-ai-model-on-you
 - `conda activate torch`
 - `pip install transformers==4.20.0`
 - `conda install torch`
-- `python -m ipykernel install --user --name pytorch --display-name "Python 3.9 (torch)"`
+- `python -m ipykernel install --user --name torch --display-name "Python 3.9 (torch)"`
 - you can leave torch and transformers installed only
 - more info on https://github.com/jeffheaton/app_deep_learning/blob/main/install/pytorch-install-aug-2023.ipynb
  # configure path to model in app.py
  - `model_path = "/Volumes/Volume/bloom/new/bloom" # replace with your local folder path`
-# run
+# run (note: takes about 30 minutes for each token without gpu acceleration)
 - `python app.py`
